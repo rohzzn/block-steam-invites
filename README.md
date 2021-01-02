@@ -1,4 +1,4 @@
-#Block-Steam-Invites
+# Block-Steam-Invites
 Allows user specific value to block all users under that value.
 Able to block only private profiles.
 Able to block only VAC or Trading banned accounts.
