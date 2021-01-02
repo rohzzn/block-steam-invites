@@ -1,18 +1,4 @@
 // ==UserScript==
-// @name         Blocks all steam invites
-// @include      *steamcommunity.com/*/home/invites*
-// @version      0.16
-// @description  Blocks all steam users much like the ignore all steam invites
-// @author       @Calatop
-// @namespace    https://greasyfork.org/users/10599
-// @download	 https://raw.githubusercontent.com/AndrewParkes/BlockAllSteamInvites/master/Blocks%20all%20steam%20invites.user.js
-// @updateURL    https://raw.githubusercontent.com/AndrewParkes/BlockAllSteamInvites/master/Blocks%20all%20steam%20invites.user.js
-// @downloadURL  https://raw.githubusercontent.com/AndrewParkes/BlockAllSteamInvites/master/Blocks%20all%20steam%20invites.user.js
-// @supportURL   https://github.com/AndrewParkes/BlockAllSteamInvites/issues
-
-// ==/UserScript==
-
-//check to see if you have any pending invites
 var element =  document.getElementById('pinvites_ignoreall');
 if (typeof(element) != 'undefined' && element !== null)
 {
